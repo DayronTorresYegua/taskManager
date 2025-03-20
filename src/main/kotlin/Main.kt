@@ -1,5 +1,7 @@
 package org.example
 
+import org.example.presentacion.IUAplicacion
+
 fun main() {
-    println("Hello World!")
+    IUAplicacion.inicio()
 }
