@@ -1,6 +1,7 @@
 package org.example.servicios
 
 import org.example.dominio.Actividad
+import org.example.dominio.Tarea
 
 // La lógica de negocio debe depender de abstracciones (por ejemplo, interfaces de repositorios) y no de implementaciones concretas
 
