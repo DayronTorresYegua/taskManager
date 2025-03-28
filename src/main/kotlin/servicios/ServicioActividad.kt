@@ -1,9 +1,17 @@
 package org.example.servicios
 
+import org.example.dominio.Actividad
+
 // La lógica de negocio debe depender de abstracciones (por ejemplo, interfaces de repositorios) y no de implementaciones concretas
 
-class ServicioActividad(private val repositorio:
-    IRepositorioActividad): IServicioActividad {
+class ServicioActividad(){
 
+    fun crearActividad(descripcion: String): Actividad {
+        return Tarea.crearInstancia(descripcion)
+    }
+
+    fun crearActividad(descripcion: String, ubicacion: String, fechaRealizacion: String): Actividad {
+
+    }
 
 }
